@@ -1,0 +1,201 @@
+{
+  "architecture": {
+    "K": 4,
+    "N": 200,
+    "epochs": 10000,
+    "eta_c": 0.01,
+    "eta_mu": 0.005,
+    "eta_mu_over_eta_c": 0.5,
+    "formula": "u_theta(x)=sum_k c_k x^mu_k",
+    "trainable_parameter_blocks": [
+      "coefficients c",
+      "exponents mu"
+    ]
+  },
+  "assessment": {
+    "both_parameter_blocks_move": true,
+    "two_timescale_ratio_exact": true
+  },
+  "frozen_error_pct": {
+    "maximum": 330.53552135187704,
+    "mean": 125.68075002414857,
+    "median": 23.78917680087047,
+    "minimum": 22.7175519196982,
+    "n": 3,
+    "std": 177.41024518548366
+  },
+  "frozen_exponent_control": [
+    {
+      "c": [
+        5.233082110449956,
+        -11.080205010370573,
+        6.874942109339847,
+        0.0012968257441830933
+      ],
+      "c_movement_l2": 14.041702667901005,
+      "dominant_c": -11.080205010370573,
+      "dominant_mu": 2.152677606759385,
+      "dominant_relative_error_pct": 330.53552135187704,
+      "final_mse": 0.006351771586308876,
+      "mu": [
+        2.913153705239004,
+        2.152677606759385,
+        1.4322105350696075,
+        2.770168283953685
+      ],
+      "mu_movement_l2": 0.0,
+      "seed": 0,
+      "train_exponents": false
+    },
+    {
+      "c": [
+        0.2497979125086295,
+        0.000329400647282228,
+        -0.00023583436069181808,
+        0.7594721290025058
+      ],
+      "c_movement_l2": 0.7974463982474651,
+      "dominant_c": 0.7594721290025058,
+      "dominant_mu": 0.613587759598491,
+      "dominant_relative_error_pct": 22.7175519196982,
+      "final_mse": 3.35853498932886e-05,
+      "mu": [
+        0.2770544966869085,
+        0.7512080690461862,
+        0.7793322904400342,
+        0.613587759598491
+      ],
+      "mu_movement_l2": 0.0,
+      "seed": 1,
+      "train_exponents": false
+    },
+    {
+      "c": [
+        -0.27282027463190983,
+        0.7542088482086016,
+        2.2994159316625786e-07,
+        0.5150644218250221
+      ],
+      "c_movement_l2": 0.9583542252925785,
+      "dominant_c": 0.7542088482086016,
+      "dominant_mu": 0.38105411599564765,
+      "dominant_relative_error_pct": 23.78917680087047,
+      "final_mse": 0.00016250262209577336,
+      "mu": [
+        2.7609259303751164,
+        0.38105411599564765,
+        2.1553784124463897,
+        1.6667583493101021
+      ],
+      "mu_movement_l2": 0.0,
+      "seed": 2,
+      "train_exponents": false
+    }
+  ],
+  "gradient_audit": {
+    "cells": 8,
+    "max_c_gradient_error": 1.0267342531733448e-11,
+    "max_mu_gradient_error": 7.19238861177085e-12,
+    "passed": true
+  },
+  "paper_id": "PVaFEuNnsD",
+  "source_pins": {
+    "checks": {
+      "source_tar": {
+        "bytes": 1699287,
+        "exists": true,
+        "expected_bytes": 1699287,
+        "expected_sha256": "25029ab7f42fdc9688c36c3fcba636a0956cb5fb07a8b85fac824268a6bf9462",
+        "passed": true,
+        "path": "upstream/arxiv-2601.22751-source.tar",
+        "sha256": "25029ab7f42fdc9688c36c3fcba636a0956cb5fb07a8b85fac824268a6bf9462"
+      },
+      "tex": {
+        "bytes": 106039,
+        "exists": true,
+        "expected_bytes": 106039,
+        "expected_sha256": "f6f3d10a1e0c1a8a5a665cb91fdfe0726a481e38be920dd936ec065aef30dbc0",
+        "passed": true,
+        "path": "upstream/msn_pinn_arxiv.tex",
+        "sha256": "f6f3d10a1e0c1a8a5a665cb91fdfe0726a481e38be920dd936ec065aef30dbc0"
+      }
+    },
+    "passed": true
+  },
+  "trainable_error_pct": {
+    "maximum": 0.6425886482718579,
+    "mean": 0.3824460071782683,
+    "median": 0.3659205090385087,
+    "minimum": 0.1388288642244384,
+    "n": 3,
+    "std": 0.2522861452249233
+  },
+  "trainable_runs": [
+    {
+      "c": [
+        0.0014568713737130533,
+        0.1480477154667118,
+        0.8507826468276853,
+        0.00010511317923732495
+      ],
+      "c_movement_l2": 0.862240628079563,
+      "dominant_c": 0.8507826468276853,
+      "dominant_mu": 0.49817039745480746,
+      "dominant_relative_error_pct": 0.3659205090385087,
+      "final_mse": 2.098491296125022e-07,
+      "mu": [
+        2.3961962705270654,
+        0.500924170695762,
+        0.49817039745480746,
+        2.1120245861189453
+      ],
+      "mu_movement_l2": 2.0739138141511555,
+      "seed": 0,
+      "train_exponents": true
+    },
+    {
+      "c": [
+        0.23603866359931783,
+        0.25727430970431353,
+        0.2413811323185134,
+        0.26462527612894365
+      ],
+      "c_movement_l2": 0.5087089495080604,
+      "dominant_c": 0.26462527612894365,
+      "dominant_mu": 0.4993058556788778,
+      "dominant_relative_error_pct": 0.1388288642244384,
+      "final_mse": 8.504147325460011e-08,
+      "mu": [
+        0.49928817119723434,
+        0.4995242707881286,
+        0.49980099799106537,
+        0.4993058556788778
+      ],
+      "mu_movement_l2": 0.4515867994235955,
+      "seed": 1,
+      "train_exponents": true
+    },
+    {
+      "c": [
+        0.0008286696741861525,
+        0.5484513548573027,
+        0.00557565288950592,
+        0.44672589513227995
+      ],
+      "c_movement_l2": 0.7089693596673187,
+      "dominant_c": 0.5484513548573027,
+      "dominant_mu": 0.4967870567586407,
+      "dominant_relative_error_pct": 0.6425886482718579,
+      "final_mse": 1.3641601515814968e-06,
+      "mu": [
+        2.3100376601721346,
+        0.4967870567586407,
+        1.0015578133733132,
+        0.49718058185052394
+      ],
+      "mu_movement_l2": 1.7076031373727831,
+      "seed": 2,
+      "train_exponents": true
+    }
+  ]
+}

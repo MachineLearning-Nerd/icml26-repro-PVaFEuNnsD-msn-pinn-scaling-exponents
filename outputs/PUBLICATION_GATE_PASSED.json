@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2601.22751",
+  "bundle": {
+    "bytes": 85582,
+    "records": 8,
+    "sha256": "63822870e91b03c3898eb8fd14acf8dc49a32fc82449460122499ace6b8c635a"
+  },
+  "falsified_claims": 2,
+  "hygiene": {
+    "absolute_path_hits": [],
+    "env_files": [],
+    "secret_hits": [],
+    "text_files_scanned": 39
+  },
+  "live_claim_count": 6,
+  "live_claim_source": "https://huggingface.co/spaces/ICML-2026-agent-repro/challenge/resolve/main/claims_anchored.json",
+  "maximum_points": 12,
+  "paper": "PVaFEuNnsD",
+  "publication_gate_passed": true,
+  "substantive_claim_count": 6,
+  "tests_passed": true,
+  "trackio": {
+    "pinned_conclusion_cells": 1,
+    "registered_bundle_bytes": 85582,
+    "space_id": "DineshAI/PVaFEuNnsD",
+    "tags": [
+      "icml2026-repro",
+      "paper-PVaFEuNnsD"
+    ]
+  },
+  "verified_claims": 4
+}

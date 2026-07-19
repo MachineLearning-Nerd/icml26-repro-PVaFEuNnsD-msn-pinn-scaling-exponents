@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2601.22751",
+  "source_tar": {
+    "path": "upstream/arxiv-2601.22751-source.tar",
+    "bytes": 1699287,
+    "sha256": "25029ab7f42fdc9688c36c3fcba636a0956cb5fb07a8b85fac824268a6bf9462"
+  },
+  "tex": {
+    "path": "upstream/msn_pinn_arxiv.tex",
+    "bytes": 106039,
+    "sha256": "f6f3d10a1e0c1a8a5a665cb91fdfe0726a481e38be920dd936ec065aef30dbc0"
+  },
+  "official_code": {
+    "paper_statement": "The code is available in the supplementary material.",
+    "availability_at_audit": "OpenReview attachment returned HTTP 403; no public author repository found"
+  }
+}

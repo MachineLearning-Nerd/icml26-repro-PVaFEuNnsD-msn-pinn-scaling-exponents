@@ -1,0 +1,132 @@
+{
+  "assessment": {
+    "reason": "bounded errors alone do not concentrate as N^{-1/2}; the proof silently uses mean-zero concentration",
+    "separation_mechanism_verified": true,
+    "theorem_as_written_missing_stochastic_noise_assumption": true
+  },
+  "bounded_noise_counterexample": {
+    "construction": "repeat identical 200-point design and identical bounded structured errors",
+    "error_ratio_last_to_first": 1.0000029534150818,
+    "n_minus_half_without_mean_zero_rejected": true,
+    "rows": [
+      {
+        "N": 200,
+        "cost": 2.013192018037458e-05,
+        "max_exponent_error": 0.10185230221455299
+      },
+      {
+        "N": 400,
+        "cost": 4.026384036073066e-05,
+        "max_exponent_error": 0.10185247452155333
+      },
+      {
+        "N": 800,
+        "cost": 8.052768072146585e-05,
+        "max_exponent_error": 0.1018524629510636
+      },
+      {
+        "N": 1600,
+        "cost": 0.00016105536144292941,
+        "max_exponent_error": 0.10185247003052372
+      },
+      {
+        "N": 3200,
+        "cost": 0.00032211072288588463,
+        "max_exponent_error": 0.10185260302667848
+      }
+    ],
+    "sigma": 0.001
+  },
+  "continuum_fisher": {
+    "delta_minus_two_supported": true,
+    "precision_digits": 100,
+    "rows": [
+      {
+        "delta": 0.01,
+        "max_exponent_std_unit_sigma_sqrtN": 115989.63158872783,
+        "minimum_full_fisher_eigenvalue": 9.43091057235424e-16,
+        "scaled_by_delta_squared": 11.598963158872783
+      },
+      {
+        "delta": 0.015,
+        "max_exponent_std_unit_sigma_sqrtN": 52192.92540978313,
+        "minimum_full_fisher_eigenvalue": 1.0557666684459806e-14,
+        "scaled_by_delta_squared": 11.743408217201203
+      },
+      {
+        "delta": 0.02,
+        "max_exponent_std_unit_sigma_sqrtN": 29722.68225102277,
+        "minimum_full_fisher_eigenvalue": 5.830333402559521e-14,
+        "scaled_by_delta_squared": 11.889072900409108
+      },
+      {
+        "delta": 0.03,
+        "max_exponent_std_unit_sigma_sqrtN": 13537.871794136541,
+        "minimum_full_fisher_eigenvalue": 6.41659465964279e-13,
+        "scaled_by_delta_squared": 12.184084614722886
+      },
+      {
+        "delta": 0.05,
+        "max_exponent_std_unit_sigma_sqrtN": 5115.600905172334,
+        "minimum_full_fisher_eigenvalue": 1.2847743997300098e-11,
+        "scaled_by_delta_squared": 12.789002262930836
+      },
+      {
+        "delta": 0.075,
+        "max_exponent_std_unit_sigma_sqrtN": 2413.0780276465994,
+        "minimum_full_fisher_eigenvalue": 1.3457229813535599e-10,
+        "scaled_by_delta_squared": 13.57356390551212
+      },
+      {
+        "delta": 0.1,
+        "max_exponent_std_unit_sigma_sqrtN": 1439.0391544360425,
+        "minimum_full_fisher_eigenvalue": 6.962129945829834e-10,
+        "scaled_by_delta_squared": 14.390391544360428
+      },
+      {
+        "delta": 0.15,
+        "max_exponent_std_unit_sigma_sqrtN": 716.6154311315117,
+        "minimum_full_fisher_eigenvalue": 6.748171155386886e-09,
+        "scaled_by_delta_squared": 16.123847200459014
+      },
+      {
+        "delta": 0.2,
+        "max_exponent_std_unit_sigma_sqrtN": 449.88574549545353,
+        "minimum_full_fisher_eigenvalue": 3.2406122123299607e-08,
+        "scaled_by_delta_squared": 17.995429819818145
+      },
+      {
+        "delta": 0.3,
+        "max_exponent_std_unit_sigma_sqrtN": 246.4184290446628,
+        "minimum_full_fisher_eigenvalue": 2.7265567528788346e-07,
+        "scaled_by_delta_squared": 22.17765861401965
+      }
+    ],
+    "small_delta_exponent_std_loglog_slope": -1.9232043604946778,
+    "small_delta_min_eigenvalue_loglog_slope": 5.892083975986956
+  },
+  "paper_id": "PVaFEuNnsD",
+  "source_pins": {
+    "checks": {
+      "source_tar": {
+        "bytes": 1699287,
+        "exists": true,
+        "expected_bytes": 1699287,
+        "expected_sha256": "25029ab7f42fdc9688c36c3fcba636a0956cb5fb07a8b85fac824268a6bf9462",
+        "passed": true,
+        "path": "upstream/arxiv-2601.22751-source.tar",
+        "sha256": "25029ab7f42fdc9688c36c3fcba636a0956cb5fb07a8b85fac824268a6bf9462"
+      },
+      "tex": {
+        "bytes": 106039,
+        "exists": true,
+        "expected_bytes": 106039,
+        "expected_sha256": "f6f3d10a1e0c1a8a5a665cb91fdfe0726a481e38be920dd936ec065aef30dbc0",
+        "passed": true,
+        "path": "upstream/msn_pinn_arxiv.tex",
+        "sha256": "f6f3d10a1e0c1a8a5a665cb91fdfe0726a481e38be920dd936ec065aef30dbc0"
+      }
+    },
+    "passed": true
+  }
+}

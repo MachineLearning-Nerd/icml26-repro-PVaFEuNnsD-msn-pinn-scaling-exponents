@@ -1,0 +1,14 @@
+{
+  "openreview_id": "PVaFEuNnsD",
+  "fetched_at": "2026-07-20T01:43:00+05:30",
+  "source": "https://huggingface.co/spaces/ICML-2026-agent-repro/challenge/resolve/main/claims_anchored.json",
+  "claims": [
+    "MSN-PINN models targets as sums of power-law terms u_theta(x) = sum_k c_k x^{mu_k}, treating both coefficients {c_k} and exponents {mu_k} as trainable parameters optimized via a two-timescale scheme with exponent learning rate eta_mu set to roughly 0.5 times the coefficient learning rate eta_c (Equation 1, Section 3.1, Algorithm 1, Section 3.5).",
+    "For the 2D Laplace equation corner singularity with a 270-degree wedge angle, MSN-PINN recovers the exponent as mu=0.6667 against the true classical Kondrat'ev value of 2/3, a 0.009% error (Table 2).",
+    "On a 40-configuration wedge benchmark spanning 5 angles and 4 boundary condition types, the constraint-aware MSN-PINN achieves 100% success rate with 0.022% mean exponent error, versus only 55% success and 5.96% mean error for the naive MSN-PINN without the constraint term, a roughly 270-fold improvement in accuracy (Section I.8, Table 11).",
+    "Theorem 4.5 shows the exponent recovery error scales as O(sigma / (c_min * Delta^2 * sqrt(N))), where Delta is the minimum separation between exponents, implying degraded conditioning as exponents become closely spaced, analogous to an optical resolution limit (Theorem 4.5, Remark 4.6).",
+    "Adding a constraint-aware loss term of the form sum_k |c_k| sin^2(mu_k * omega) to steer critical points toward physically valid exponents improves accuracy on the corner-singularity example from 14.6% error to 0.009% error (Theorem 4.8, Figure 2).",
+    "Two exponents become distinguishable (resolvable) only when their separation Delta is at least 0.1; below this threshold they merge into an intermediate value, termed the Rayleigh limit for exponent resolution (Table 10, Section I.6, Remark I.1)."
+  ]
+}
+

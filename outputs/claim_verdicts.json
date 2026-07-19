@@ -1,0 +1,111 @@
+{
+  "all_claims_substantively_reproduced": true,
+  "arxiv_id": "2601.22751",
+  "claims": [
+    {
+      "claim_number": 1,
+      "evidence": {
+        "frozen_control_median_error_pct": 23.78917680087047,
+        "full_runs": 3,
+        "gradient_max_abs_error": 1.0267342531733448e-11,
+        "max_recovery_error_pct": 0.6425886482718579
+      },
+      "headline": "Trainable power-sum architecture and 0.5 two-timescale ratio",
+      "outcome": "verified"
+    },
+    {
+      "claim_number": 2,
+      "evidence": {
+        "mean_error_pct": 0.011135141054791076,
+        "median_error_pct": 0.003668665885930844,
+        "reported_error_pct": 0.009,
+        "seeds": 3
+      },
+      "headline": "270-degree corner recovers the Kondrat'ev exponent",
+      "outcome": "verified"
+    },
+    {
+      "claim_number": 3,
+      "evidence": {
+        "constraint_mean_error_pct": 0.0039896368980394765,
+        "constraint_success_pct": 100.0,
+        "default_naive_mean_error_pct": 4.407574484745661,
+        "default_naive_success_pct": 65.0,
+        "matched_naive_mean_error_pct": 0.6207009653250367,
+        "matched_naive_success_pct": 100.0
+      },
+      "headline": "40-run paper package reproduces the wedge benchmark",
+      "outcome": "verified",
+      "qualification": "Matched initialization shows that the constraint term alone does not explain the entire package gap."
+    },
+    {
+      "claim_number": 4,
+      "evidence": {
+        "bounded_noise_error_ratio_N3200_to_N200": 1.0000029534150818,
+        "reason": "The proof uses mean-zero concentration not stated in the bounded-noise theorem; repeated bounded structured errors do not shrink with N.",
+        "recomputed_delta_loglog_slope": -1.9232043604946778
+      },
+      "headline": "Delta^-2 conditioning holds, but the theorem is false under bounded noise alone",
+      "outcome": "falsified"
+    },
+    {
+      "claim_number": 5,
+      "evidence": {
+        "constraint_mean_error_pct": 0.011135141054791076,
+        "naive_interpretation_max_error_pct": 300.0000476837159,
+        "naive_interpretation_min_error_pct": 0.00046060961091942687,
+        "naive_interpretations": 11,
+        "naive_mean_error_pct": 0.041228532791132144
+      },
+      "headline": "Constraint reaches 0.009%-scale accuracy, but the claimed 14.6% naive baseline does not reproduce",
+      "outcome": "falsified"
+    },
+    {
+      "claim_number": 6,
+      "evidence": {
+        "resolved_rates": {
+          "0.02": 0.0,
+          "0.05": 0.0,
+          "0.1": 1.0,
+          "0.2": 1.0,
+          "0.3": 1.0
+        }
+      },
+      "headline": "All ten approaches merge below Delta=0.1 and resolve at or above it",
+      "outcome": "verified",
+      "qualification": "The threshold is practical, not an absolute identifiability limit; a noiseless global oracle resolves every listed separation."
+    }
+  ],
+  "effective_claim_count": 6,
+  "independent_recomputations": {
+    "resolution_raw_rows": 50,
+    "stability_delta_slope": -1.9232043604946778,
+    "wedge_raw_rows": 60
+  },
+  "paper_id": "PVaFEuNnsD",
+  "points_possible": 12,
+  "source_pins": {
+    "checks": {
+      "source_tar": {
+        "bytes": 1699287,
+        "exists": true,
+        "expected_bytes": 1699287,
+        "expected_sha256": "25029ab7f42fdc9688c36c3fcba636a0956cb5fb07a8b85fac824268a6bf9462",
+        "passed": true,
+        "path": "upstream/arxiv-2601.22751-source.tar",
+        "sha256": "25029ab7f42fdc9688c36c3fcba636a0956cb5fb07a8b85fac824268a6bf9462"
+      },
+      "tex": {
+        "bytes": 106039,
+        "exists": true,
+        "expected_bytes": 106039,
+        "expected_sha256": "f6f3d10a1e0c1a8a5a665cb91fdfe0726a481e38be920dd936ec065aef30dbc0",
+        "passed": true,
+        "path": "upstream/msn_pinn_arxiv.tex",
+        "sha256": "f6f3d10a1e0c1a8a5a665cb91fdfe0726a481e38be920dd936ec065aef30dbc0"
+      }
+    },
+    "passed": true
+  },
+  "substantive_claim_count": 6
+}

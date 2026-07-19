@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "title": "Repro - Physics-Informed Müntz-Szász Networks (PVaFEuNnsD)",
+  "emoji": "📐",
+  "space_id": "DineshAI/PVaFEuNnsD",
+  "paper": {
+    "openreview_id": "PVaFEuNnsD",
+    "arxiv_id": "2601.22751"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-PVaFEuNnsD"
+  ],
+  "updated_at": "2026-07-19T21:05:01+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - Physics-Informed Müntz-Szász Networks (PVaFEuNnsD)",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "overview",
+        "title": "Overview",
+        "file": "pages/overview/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-1-architecture",
+        "title": "Claim 1 - Architecture",
+        "file": "pages/claim-1-architecture/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-2-corner-recovery",
+        "title": "Claim 2 - Corner recovery",
+        "file": "pages/claim-2-corner-recovery/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-3-wedge-benchmark",
+        "title": "Claim 3 - Wedge benchmark",
+        "file": "pages/claim-3-wedge-benchmark/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-4-stability",
+        "title": "Claim 4 - Stability",
+        "file": "pages/claim-4-stability/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-5-constraint-ablation",
+        "title": "Claim 5 - Constraint ablation",
+        "file": "pages/claim-5-constraint-ablation/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-6-resolution-limit",
+        "title": "Claim 6 - Resolution limit",
+        "file": "pages/claim-6-resolution-limit/page.md",
+        "children": []
+      },
+      {
+        "slug": "methods",
+        "title": "Methods",
+        "file": "pages/methods/page.md",
+        "children": []
+      },
+      {
+        "slug": "negative-controls",
+        "title": "Negative controls",
+        "file": "pages/negative-controls/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 3279,
+  "revision": "1784495101251403922"
+}
