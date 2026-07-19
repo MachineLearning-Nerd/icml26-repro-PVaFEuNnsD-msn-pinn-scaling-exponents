@@ -11,7 +11,7 @@
     "icml2026-repro",
     "paper-PVaFEuNnsD"
   ],
-  "updated_at": "2026-07-19T21:05:01+00:00",
+  "updated_at": "2026-07-19T21:16:01+00:00",
   "root": {
     "slug": "index",
     "title": "Repro - Physics-Informed Müntz-Szász Networks (PVaFEuNnsD)",
@@ -79,6 +79,6 @@
       }
     ]
   },
-  "agent_view_tokens": 3279,
-  "revision": "1784495101251403922"
+  "agent_view_tokens": 3210,
+  "revision": "1784495761723623685"
 }

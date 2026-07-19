@@ -4,9 +4,9 @@
 - arXiv: `2601.22751`
 - Effective live contract: 6 anchored claims / 12 possible points
 - Owner: `codex-msn-pinn-six-claims`
-- State: `local_gate_passed`
-- Current step: GitHub push, then atomic canonical HF enqueue
-- Next: shared publisher promotes the registered 85,582-byte bundle and performs public readback
+- State: `under_verdict`
+- Current step: public Space and artifact-bucket readback verified
+- Next: await challenge verdict; preserve the hash-bound public evidence
 - Queue invariant: this paper is not eligible for `backlog.json` until every live claim and the complete publication gate pass
 
 ## Source availability
@@ -48,3 +48,14 @@ resolve or substantively falsify those exact comparisons and report all outcomes
 - Publication gate: passed at `2026-07-20T02:35+05:30`.
 - Bundle: 85,582 bytes, SHA-256
   `63822870e91b03c3898eb8fd14acf8dc49a32fc82449460122499ace6b8c635a`.
+- GitHub: `MachineLearning-Nerd/icml26-repro-PVaFEuNnsD-msn-pinn-scaling-exponents`
+  at first-push commit `9a63beb`.
+- Canonical HF backlog: atomically inserted as entry 46 after the GitHub push.
+- Public Space: `https://huggingface.co/spaces/DineshAI/PVaFEuNnsD`, commit
+  `54d18df1f6c93d10b24669261ba4d27de1ebb08f`.
+- Public bucket: `DineshAI/PVaFEuNnsD-artifacts`, exactly one file at
+  `logbook-files/outputs/evidence_bundle.jsonl` (85,582 bytes). An independent
+  download reproduced SHA-256
+  `63822870e91b03c3898eb8fd14acf8dc49a32fc82449460122499ace6b8c635a`.
+- Public report readback found all six claim pages and exactly one pinned
+  `FULL_GATE_READY: PVaFEuNnsD` conclusion marker.

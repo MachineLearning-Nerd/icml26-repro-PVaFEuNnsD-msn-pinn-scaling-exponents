@@ -152,33 +152,6 @@ exit 0 · 1.7s
 
 ---
 <!-- trackio-cell
-{"type": "artifact", "id": "cell_1ba20bfe1e94", "created_at": "2026-07-19T21:02:39+00:00", "title": "Artifact: evidence_bundle.jsonl", "path": "outputs/evidence_bundle.jsonl", "size": 85489, "artifact_type": "dataset", "auto": true}
--->
-**📦 Artifact** `outputs/evidence_bundle.jsonl` · dataset · 85.5 kB
-
-trackio-local-path://outputs/evidence_bundle.jsonl
-
-
----
-<!-- trackio-cell
-{"type": "artifact", "id": "cell_e6096a5cb261", "created_at": "2026-07-19T21:02:53+00:00", "title": "Complete six-claim evidence bundle", "artifact": "outputs/evidence_bundle.jsonl", "artifact_type": "dataset"}
--->
-**📦 Artifact** `outputs/evidence_bundle.jsonl` · dataset
-
-trackio-artifact://outputs/evidence_bundle.jsonl
-
-
----
-<!-- trackio-cell
-{"type": "artifact", "id": "cell_5cc6a2ad35b4", "created_at": "2026-07-19T21:04:25+00:00", "title": "Complete six-claim evidence bundle", "artifact": "outputs/evidence_bundle.jsonl", "artifact_type": "dataset"}
--->
-**📦 Artifact** `outputs/evidence_bundle.jsonl` · dataset
-
-trackio-artifact://outputs/evidence_bundle.jsonl
-
-
----
-<!-- trackio-cell
 {"type": "code", "id": "cell_1d7c75d501fc", "created_at": "2026-07-19T21:04:52+00:00", "title": "Run: uv (exit 0)", "command": ["uv", "run", "python", "-m", "repro.src.verify_all"], "exit_code": 0, "duration_s": 1.659}
 -->
 ````bash
@@ -318,4 +291,4 @@ exit 0 · 1.7s
 -->
 **📦 Artifact** `outputs/evidence_bundle.jsonl` · dataset · 85.6 kB
 
-trackio-local-path://outputs/evidence_bundle.jsonl
+https://huggingface.co/buckets/DineshAI/PVaFEuNnsD-artifacts#logbook-files/outputs/evidence_bundle.jsonl
